@@ -1,0 +1,53 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "09_Authentication_Strategies_and_Options"
+		},
+		{
+			"path": "10_Testing_Isolated_Microservices"
+		},
+		{
+			"path": "11_Integrating_a_Server_Side_Rendered_React_App"
+		},
+		{
+			"path": "12_Code_Sharing_and_Reuse_Between_Services"
+		},
+		{
+			"path": "13_Create_Read_Update_Destroy_Server_Setup"
+		},
+		{
+			"path": "14_NATS_Streaming_Server_An_Event_Bus_Implementation"
+		},
+		{
+			"path": "15_Connecting_to_NATS_in_a_Node_JS_World"
+		},
+		{
+			"path": "16_Managing_a_NATS_Client"
+		},
+		{
+			"path": "17_Cross_Service_Data_Replication_In_Action"
+		},
+		{
+			"path": "18_Understanding_Event_Flow"
+		},
+		{
+			"path": "19_Listening_for_Events_and_Handling_Concurrency_Issues"
+		},
+		{
+			"path": "20_Worker_Services"
+		},
+		{
+			"path": "21_Handling_Payments"
+		},
+		{
+			"path": "22_Back_to_the_Client"
+		},
+		{
+			"path": "23_CI_CD"
+		}	
+	],
+	"settings": {}
+}
