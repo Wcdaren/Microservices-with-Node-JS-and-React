@@ -4,6 +4,21 @@
 			"path": "."
 		},
 		{
+			"path": "02_A_Mini_Microservices_App"
+		},
+		{
+			"path": "04_Orchestrating_Collections_of_Services_with_Kubernetes"
+		},
+		{
+			"path": "05_Architecture_of_Multi_Service_Apps"
+		},
+		{
+			"path": "07_Response_Normalization_Strategies"
+		},
+		{
+			"path": "08_Database Management_and_Modeling"
+		},
+		{
 			"path": "09_Authentication_Strategies_and_Options"
 		},
 		{
@@ -49,5 +64,9 @@
 			"path": "23_CI_CD"
 		}	
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"Errros"
+		]
+	}
 }
