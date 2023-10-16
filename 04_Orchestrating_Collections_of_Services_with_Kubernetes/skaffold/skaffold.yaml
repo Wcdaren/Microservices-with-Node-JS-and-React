@@ -8,7 +8,7 @@ build:
   local:
     push: true
   artifacts:
-    - image: webmakaka/grider-ms-app1-client
+    - image: wcdaren1/grider-ms-app1-client
       context: ../app/client
       docker:
         dockerfile: Dockerfile
@@ -16,7 +16,7 @@ build:
         manual:
           - src: 'src/**/*.js'
             dest: .
-    - image: webmakaka/grider-ms-app1-comments
+    - image: wcdaren1/grider-ms-app1-comments
       context: ../app/comments
       docker:
         dockerfile: Dockerfile
@@ -24,7 +24,7 @@ build:
         manual:
           - src: '*.js'
             dest: .
-    - image: webmakaka/grider-ms-app1-event-bus
+    - image: wcdaren1/grider-ms-app1-event-bus
       context: ../app/event-bus
       docker:
         dockerfile: Dockerfile
@@ -32,7 +32,7 @@ build:
         manual:
           - src: '*.js'
             dest: .
-    - image: webmakaka/grider-ms-app1-moderation
+    - image: wcdaren1/grider-ms-app1-moderation
       context: ../app/moderation
       docker:
         dockerfile: Dockerfile
@@ -40,7 +40,7 @@ build:
         manual:
           - src: '*.js'
             dest: .
-    - image: webmakaka/grider-ms-app1-posts
+    - image: wcdaren1/grider-ms-app1-posts
       context: ../app/posts
       docker:
         dockerfile: Dockerfile
@@ -48,7 +48,7 @@ build:
         manual:
           - src: '*.js'
             dest: .
-    - image: webmakaka/grider-ms-app1-query
+    - image: wcdaren1/grider-ms-app1-query
       context: ../app/query
       docker:
         dockerfile: Dockerfile

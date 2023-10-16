@@ -8,7 +8,7 @@ build:
   local:
     push: true
   artifacts:
-    - image: webmakaka/grider-ms-app2-auth
+    - image: wcdaren1/grider-ms-app2-auth
       context: ../app/auth
       docker:
         dockerfile: Dockerfile
@@ -16,7 +16,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image: webmakaka/grider-ms-app2-client
+    - image: wcdaren1/grider-ms-app2-client
       context: ../app/client
       docker:
         dockerfile: Dockerfile
@@ -24,7 +24,7 @@ build:
         manual:
           - src: '**/*.js'
             dest: .
-    - image: webmakaka/grider-ms-app2-tickets
+    - image: wcdaren1/grider-ms-app2-tickets
       context: ../app/tickets
       docker:
         dockerfile: Dockerfile
@@ -32,7 +32,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image: webmakaka/grider-ms-app2-orders
+    - image: wcdaren1/grider-ms-app2-orders
       context: ../app/orders
       docker:
         dockerfile: Dockerfile

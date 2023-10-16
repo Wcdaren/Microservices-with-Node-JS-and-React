@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: tickets
-          image: webmakaka/grider-ms-app2-tickets
+          image: wcdaren1/grider-ms-app2-tickets
           env:
             - name: MONGO_URI
               value: 'mongodb://tickets-mongo-svc:27017/tickets'

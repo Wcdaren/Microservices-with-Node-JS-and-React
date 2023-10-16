@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: expiration
-          image: webmakaka/grider-ms-app2-expiration
+          image: wcdaren1/grider-ms-app2-expiration
           env:
             - name: NATS_CLUSTER_ID
               value: 'ticketing'

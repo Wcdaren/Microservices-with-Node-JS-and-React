@@ -4,7 +4,7 @@
 
 <br/>
 
-### [My Updatable Version of the final project from this course](https://github.com/webmakaka/Microservices-with-Node-JS-and-React-Improved)
+### [My Updatable Version of the final project from this course](https://github.com/wcdaren1/Microservices-with-Node-JS-and-React-Improved)
 
 <hr/>
 
@@ -75,7 +75,7 @@ minikube start --profile my-profile
 
     $ docker login
 
-Need to update my docker image name webmakaka/grider-ms-app1\*\*\* to your in scripts from skaffold and k8s folders.
+Need to update my docker image name wcdaren1/grider-ms-app1\*\*\* to your in scripts from skaffold and k8s folders.
 
     $ skaffold dev
 
@@ -112,7 +112,7 @@ browser --> posts.com
 
     $ docker login
 
-Need to update my docker image name webmakaka/grider-ms-app2\*\*\* to your in scripts from skaffold and k8s folders.
+Need to update my docker image name wcdaren1/grider-ms-app2\*\*\* to your in scripts from skaffold and k8s folders.
 
     $ skaffold dev
 

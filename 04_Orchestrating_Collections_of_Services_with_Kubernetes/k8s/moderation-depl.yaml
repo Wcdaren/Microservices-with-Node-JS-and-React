@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: moderation
-          image: webmakaka/grider-ms-app1-moderation
+          image: wcdaren1/grider-ms-app1-moderation

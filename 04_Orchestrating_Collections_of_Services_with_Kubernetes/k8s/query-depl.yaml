@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: query
-          image: webmakaka/grider-ms-app1-query
+          image: wcdaren1/grider-ms-app1-query

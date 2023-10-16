@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: webmakaka/grider-ms-app2-auth
+          image: wcdaren1/grider-ms-app2-auth
           env:
             - name: JWT_KEY
               valueFrom:

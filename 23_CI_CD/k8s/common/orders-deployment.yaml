@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: webmakaka/grider-ms-app2-orders
+          image: wcdaren1/grider-ms-app2-orders
           env:
             - name: NATS_CLUSTER_ID
               value: 'ticketing'

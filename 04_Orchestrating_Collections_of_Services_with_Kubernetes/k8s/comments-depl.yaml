@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: comments
-          image: webmakaka/grider-ms-app1-comments
+          image: wcdaren1/grider-ms-app1-comments

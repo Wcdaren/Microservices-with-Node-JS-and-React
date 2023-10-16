@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: webmakaka/grider-ms-app2-client
+          image: wcdaren1/grider-ms-app2-client
           # env:
           #   - name: JWT_KEY
           #     valueFrom:
